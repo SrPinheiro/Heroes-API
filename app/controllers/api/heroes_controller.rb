@@ -4,7 +4,7 @@ class Api::HeroesController < ApplicationController
 
   # GET /heroes
   def index
-    @heroes = Hero.all.sorted_by_name
+    @heroes = Hero.search(params[:term]).sorted_by_name
 
     respond_to do |f|
       f.json {render json: @heroes, status: :ok}
