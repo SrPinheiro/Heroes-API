@@ -1,16 +1,23 @@
-class HeroesController < ApplicationController
+class Api::HeroesController < ApplicationController
   before_action :set_hero, only: [:show, :update, :destroy]
   respond_to :json
 
   # GET /heroes
   def index
-    @heroes = Hero.all
-    render json: @heroes
+    @heroes = Hero.all.sorted_by_name
+
+    respond_to do |f|
+      f.json {render json: @heroes, status: :ok}
+    end
   end
 
   # GET /heroes/1
   def show
-    render json: @hero
+    unless @hero == []
+      render json: @hero, status: :ok
+    else
+      render json: @hero, status: :not_found
+      end
   end
 
   # POST /heroes
@@ -36,12 +43,17 @@ class HeroesController < ApplicationController
   # DELETE /heroes/1
   def destroy
     @hero.destroy
+    render json: "", status: :des
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_hero
-      @hero = Hero.find(params[:id])
+      begin
+        @hero = Hero.find(params[:id])
+      rescue
+        @hero = []
+      end
     end
 
     # Only allow a list of trusted parameters through.

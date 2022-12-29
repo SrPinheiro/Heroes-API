@@ -4,6 +4,10 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+
+#Ignore IDE files
+*.idea
+*.iml
 # Ignore bundler config.
 /.bundle
 
@@ -29,3 +33,4 @@ tmp/*
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/.idea/
