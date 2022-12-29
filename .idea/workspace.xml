@@ -4,6 +4,7 @@
     <list default="true" id="2d860e9f-26e7-4ec7-bcb6-acf44f33fa65" name="Changes" comment="Add api model, add scope hero">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/api/heroes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/heroes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/hero.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/hero.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672261517048</updated>
       <workItem from="1672261521018" duration="11741000" />
-      <workItem from="1672286094995" duration="5249000" />
+      <workItem from="1672286094995" duration="5857000" />
     </task>
     <task id="LOCAL-00001" summary="add Serializer gem">
       <created>1672291345150</created>
