@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d860e9f-26e7-4ec7-bcb6-acf44f33fa65" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Rails-API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Rails-API.iml" afterDir="false" />
+    <list default="true" id="2d860e9f-26e7-4ec7-bcb6-acf44f33fa65" name="Changes" comment="Add api model, add scope hero">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/heroes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/heroes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/hero.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/hero.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/heroes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/heroes_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,8 +147,23 @@
       <option name="presentableId" value="Default" />
       <updated>1672261517048</updated>
       <workItem from="1672261521018" duration="11741000" />
-      <workItem from="1672286094995" duration="3533000" />
+      <workItem from="1672286094995" duration="5249000" />
     </task>
+    <task id="LOCAL-00001" summary="add Serializer gem">
+      <created>1672291345150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672291345150</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add api model, add scope hero">
+      <created>1672291420538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672291420538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,5 +179,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Serializer gem" />
+    <MESSAGE value="Add api model, add scope hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add api model, add scope hero" />
   </component>
 </project>
