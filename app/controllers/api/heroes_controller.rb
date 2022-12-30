@@ -20,7 +20,7 @@ class Api::HeroesController < ApplicationController
       render json: @hero, status: :ok
     else
       render json: @hero, status: :not_found
-      end
+    end
   end
 
   # POST /heroes
@@ -46,7 +46,6 @@ class Api::HeroesController < ApplicationController
   # DELETE /heroes/1
   def destroy
     @hero.destroy
-    render json: "", status: :des
   end
 
   private
